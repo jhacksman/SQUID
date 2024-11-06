@@ -1,0 +1,12 @@
+# Core dependencies for macOS/Apple Silicon
+torch  # Will use MPS backend on Apple Silicon
+torchvision  # Required for image processing
+transformers>=4.34.0  # For LLM integration
+pillow>=10.0.0  # Image handling
+pyautogui>=0.9.54  # System interaction
+fastapi>=0.104.0  # API server
+uvicorn>=0.23.2  # ASGI server
+python-multipart>=0.0.6  # File handling
+websockets>=11.0.3  # Real-time communication
+requests>=2.31.0  # HTTP client
+numpy>=1.24.0  # Numerical operations
